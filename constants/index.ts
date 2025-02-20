@@ -136,37 +136,37 @@ export const testimonialData: TestimonialData[] = [
   },
 ];
 
-export interface LineCardsData {
+export interface Cards1Data {
   id: number;
   icon: IconType;
   title: string;
   text: string;
 }
 
-export const lineCardsData = [
+export const cards1Data: Cards1Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "37 godina iskustva",
+    text: "Nosilac posla, Vladimir Vučevski, odgovoran je za rad na terenu, izvođenje radova i koordinaciju sa majstorima. Njegovo bogato iskustvo garantuje vrhunski kvalitet i profesionalan pristup svakom projektu.",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Kompletna usluga",
+    text: "Pružamo sve što vam je potrebno za izgradnju, renoviranje i sređivanje prostora, od elektroinstalacija do završnih radova.",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Iskustvo i profesionalizam",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Pouzdanost i tačnost",
+    text: "Poštujemo rokove i brinemo o zadovoljstvu klijenata, uz korišćenje kvalitetnih materijala i najnovijih tehnika u radu.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "Srbija i inostranstvo",
-    text: "Višegodišnje iskustvo u opremanju enterijera.",
+    title: "Pristupačne cene i transparentnost",
+    text: "Naša politika cena je fer i transparentna, bez skrivenih troškova. Nudimo optimalan odnos cene i kvaliteta, prilagođen vašem budžetu.",
   },
 ];
 
@@ -267,10 +267,80 @@ export const cards2Data: Cards2Data[] = [
     text: "",
   },
 ];
+export const cards2Data2: Cards2Data[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Izgradnja novih objekata",
+    text: "",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Renoviranje objekata",
+    text: "",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Oblaganje kamenom",
+    text: "",
+  },
+];
+export const cards2Data3: Cards2Data[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Molersko-farbarski",
+    text: "",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Parketarski radovi",
+    text: "",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Sređivanje prostora",
+    text: "",
+  },
+];
+export const cards2Data4: Cards2Data[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Prevoz van gabaritnog tereta u inostranstvo",
+    text: "",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Selidbe",
+    text: "",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Iznošenje starog nameštaja",
+    text: "",
+  },
+];
+
 export interface Cards2DataText {
   text: string;
 }
 
 export const cards2DataText: Cards2DataText = {
   text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
+};
+export const cards2DataText2: Cards2DataText = {
+  text: "Nudimo kompletnu uslugu renoviranja stambenih i poslovnih objekata, uključujući molersko-farbarske, parketarske i dekorativne radove. Takođe, vršimo oblaganje kamenom, što prostoru daje dodatnu estetsku vrednost i dugotrajnost.",
+};
+export const cards2DataText3: Cards2DataText = {
+  text: "Bilo da želite osveženje prostora ili kompletnu promenu izgleda, naši stručnjaci za molersko-farbarske i parketarske radove obezbeđuju preciznu i kvalitetnu izradu, prilagođenu vašim potrebama.",
+};
+export const cards2DataText4: Cards2DataText = {
+  text: "Pored građevinskih i elektroinstalaterskih usluga, specijalizovani smo za selidbe i prevoz van gabaritnog tereta u inostranstvo. Takođe, pružamo uslugu iznošenja starog nameštaja i sređivanja prostora, čime olakšavamo organizaciju i pripremu za renoviranje ili useljenje.",
 };

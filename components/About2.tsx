@@ -16,6 +16,11 @@ const About2 = () => {
             iskustvom, garantujemo kvalitet i pouzdanost u svakom projektu.
             Pružamo široku paletu usluga
           </p>
+          <p className=" first-letter:pl-6 text-lg md:text-3xl">
+            <span className="font-bold"></span>Posao predvodi
+            <span className="font-bold"> Vladimir Vučevski</span>, sa 37 godina
+            iskustva u izvođenju radova i organizaciji majstora na terenu.
+          </p>
           <h3 className="text-3xl font-bold md:text-5xl text-center">
             Širok spektar usluga na jednom mestu
           </h3>

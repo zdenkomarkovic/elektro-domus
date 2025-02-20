@@ -2,9 +2,6 @@
 
 import hero from "../public/hero.jpg";
 import Image from "next/image";
-import { ArrowRightIcon } from "lucide-react";
-import Link from "next/link";
-import { motion } from "framer-motion";
 
 const HeroOneImg = () => {
   return (
