@@ -2,12 +2,12 @@ import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
 import Cards1 from "@/components/Cards1";
 import Cards2 from "@/components/Cards2";
-import CardWithImage from "@/components/CardWithImage";
+// import CardWithImage from "@/components/CardWithImage";
 import HeroOneImg from "@/components/HeroOneImg";
 
 import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
-import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
-import Testemonials from "@/components/Testimonials";
+// import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
+// import Testemonials from "@/components/Testimonials";
 import {
   cards1Data,
   cards2Data,
@@ -24,7 +24,6 @@ export default function Home() {
   return (
     <div className="">
       <HeroOneImg />
-
       <About2 />
       <Cards2
         title={"Elektroinstalacije i elektro ormani"}
@@ -48,11 +47,10 @@ export default function Home() {
       />
       <PozoviteNasOdmah />
       <Cards1 title={"Zašto odabrati Elektro Domus Niš?"} data={cards1Data} />
-      <CardWithImage />
-      <PozoviteNasOdmahImage />
-
+      {/* <CardWithImage /> */}
+      /
       <BackgroundImage />
-      <Testemonials />
+      {/* <Testemonials /> */}
     </div>
   );
 }
