@@ -1,4 +1,3 @@
-import About from "@/components/About";
 import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
 import Cards1 from "@/components/Cards1";

@@ -1,5 +1,5 @@
-import { Cards2DataText, LineCardsData } from "@/constants/index";
-import { CardHeader, CardTitle, CardContent, Card } from "./ui/card";
+import { Cards2Data, Cards2DataText } from "@/constants/index";
+import { CardHeader, CardContent, Card } from "./ui/card";
 import MotionComponent1 from "./MotionComponent1";
 
 const Cards2 = ({
@@ -8,7 +8,7 @@ const Cards2 = ({
   text,
 }: {
   title: string;
-  data: LineCardsData[];
+  data: Cards2Data[];
   text: Cards2DataText;
 }) => {
   return (
@@ -34,7 +34,7 @@ const Cards2 = ({
 
 export default Cards2;
 
-const OneCard = ({ item }: { item: LineCardsData }) => {
+const OneCard = ({ item }: { item: Cards2Data }) => {
   const IconComponent = item.icon;
 
   return (
