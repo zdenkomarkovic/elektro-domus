@@ -1,8 +1,8 @@
-import { LineCardsData } from "@/constants/index";
+import { Cards1Data } from "@/constants/index";
 import { CardHeader, CardTitle, CardContent, Card } from "./ui/card";
 import MotionComponent1 from "./MotionComponent1";
 
-const Cards1 = ({ title, data }: { title: string; data: LineCardsData[] }) => {
+const Cards1 = ({ title, data }: { title: string; data: Cards1Data[] }) => {
   return (
     <div className="">
       <div className="container px-5 mx-auto py-10 md:py-20 border-t-2 space-y-10 md:space-y-20">
