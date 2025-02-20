@@ -1,17 +1,17 @@
 "use client";
 
-import Hero3 from "../public/hero3.jpg";
+import hero from "../public/hero.jpg";
 import Image from "next/image";
 import { ArrowRightIcon } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const Hero = () => {
+const HeroOneImg = () => {
   return (
     <div className="relative flex min-h-[100dvh]">
       <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" />
       <Image
-        src={Hero3}
+        src={hero}
         alt="slep puric"
         fill
         className="w-full h-[100dvh] object-cover"
@@ -19,13 +19,13 @@ const Hero = () => {
 
       <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-6 items-center justify-center z-[1] ">
         <h1 className="text-primary md:text-7xl text-xl font-bold px-4">
-          Šlep služba Čačak
+          Elektro Domus Niš – Stručne Elektro i Građevinske Usluge
         </h1>
-        <h2 className="text-muted font-medium md:text-5xl text-md">
+        {/* <h2 className="text-muted font-medium md:text-5xl text-md">
           Od 0 do 24h, sedam dana u nedelji!
-        </h2>
+        </h2> */}
         <div className="flex flex-col gap-4 md:flex-row">
-          <Link href="/proizvodi">
+          {/* <Link href="/proizvodi">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
@@ -34,8 +34,8 @@ const Hero = () => {
               Istražite naše proizvode
               <ArrowRightIcon className="w-[18px]" />
             </motion.button>
-          </Link>
-          <a href="tel:+3816000000">
+          </Link> */}
+          {/* <a href="tel:+38162662918">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
@@ -43,11 +43,11 @@ const Hero = () => {
             >
               Pozovite odmah
             </motion.button>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero;
+export default HeroOneImg;

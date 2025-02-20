@@ -1,26 +1,40 @@
 import About from "@/components/About";
 import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
-import Cardlist from "@/components/Cardlist";
-import Cards1 from "@/components/Cards1";
+import Cards2 from "@/components/Cards2";
 import CardWithImage from "@/components/CardWithImage";
-import Hero from "@/components/Hero";
+import HeroOneImg from "@/components/HeroOneImg";
+
 import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
 import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
 import Testemonials from "@/components/Testimonials";
-import { lineCardsData } from "@/constants/index";
+import { cards2Data, cards2DataText, lineCardsData } from "@/constants/index";
 
 export default function Home() {
   return (
     <div className="">
-      <Hero />
-      <About />
+      <HeroOneImg />
+
       <About2 />
+      <Cards2
+        title={"Elektroinstalacije i elektro ormani"}
+        data={cards2Data}
+        text={cards2DataText}
+      />
+      <Cards2
+        title={"Elektroinstalacije i elektro ormani"}
+        data={cards2Data}
+        text={cards2DataText}
+      />
+      <Cards2
+        title={"Elektroinstalacije i elektro ormani"}
+        data={cards2Data}
+        text={cards2DataText}
+      />
       <PozoviteNasOdmah />
       <CardWithImage />
       <PozoviteNasOdmahImage />
-      <Cards1 title={"dodaj naslov"} data={lineCardsData} />
-      <Cardlist />
+
       <BackgroundImage />
       <Testemonials />
     </div>
